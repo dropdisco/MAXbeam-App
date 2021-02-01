@@ -1,0 +1,99 @@
+:global(.ant-popover-title) {
+  text-align: center;
+}
+
+:global(.ant-modal-title) {
+  text-align: center;
+}
+
+.header {
+  font-size: calc(10px + 2vmin);
+  box-shadow: 0 2px 3px 0 rgba(0,0,0,.05);
+  background: black;
+  color: white;
+  padding: 10px 0;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  display: inline-flex;
+  z-index: 10;
+}
+
+.header:hover {
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.08);
+}
+
+.button {
+  color: #22f5d8;
+  background-color: transparent;
+  border: 1px solid transparent;
+  padding: 1px 6px;
+  font-size: 19px;
+  display: flex;
+  cursor: pointer;
+  letter-spacing: 2px;
+}
+
+.logo {
+  composes: button;
+  font-family: 'Rajdhani', sans-serif;
+}
+
+.navMenuOption {
+  width: 100%;
+    padding: 0;
+    border: none;
+    background-color: #121212;
+    text-align: left;
+    cursor: pointer;
+    text-transform: uppercase;
+    border: 1px solid rgb(34 245 216);
+    padding: 10px 20px;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 1em;
+    text-decoration: none;
+    letter-spacing: 0.18em;
+    overflow: hidden;
+    outline: none;
+    text-align: left;
+    display: block;
+    -webkit-transition: color 0.3s;
+    transition: color 0.3s;
+}
+
+.editorSettingContainer {
+  width: auto;
+}
+
+.editorSettingItem {
+  margin: 4px 0;
+}
+
+.saveButton {
+  height: 32px;
+  border: 1px solid #eee;
+  border-radius: 4px;
+  padding: 0 15px;
+  font-family: 'Rajdhani', sans-serif;
+  transition: all 300ms ease;
+  cursor: pointer;
+}
+
+.saveButton:active {
+  transform: scale(0.98);
+}
+
+.publishButton {
+  composes: saveButton;
+  color: #fff;
+  background-color: deepskyblue;
+}
+
+.draftButton {
+  composes: saveButton;
+  color: #fff;
+  background-color: salmon;
+}

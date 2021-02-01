@@ -1,0 +1,28 @@
+.Login-button {
+  color: white;
+  display: block;
+  font-size: 16px;
+  height: 60px;
+  margin: 10px auto;
+  width: 300px;
+  cursor: pointer;
+  font-family: 'Rajdhani', sans-serif;
+  letter-spacing: 2px;
+}
+
+.Login-button:hover {
+  opacity: 0.9;
+}
+
+.Login-email {
+  background-color:#ffffff3b;;
+}
+
+.Login-fb {
+  background-color:#ffffff3b;;
+}
+
+.Login-mm {
+  background-color: #f16307;
+}
+
